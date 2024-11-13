@@ -34,6 +34,12 @@ gem "bootsnap", require: false
 gem "bootstrap", "~> 5.3.3"
 gem "sassc-rails"
 
+# Ruby wrapper for Telegram's Bot API
+gem "telegram-bot-ruby"
+
+# Figaro was written to make it easy to securely configure Rails applications.
+gem "figaro"
+
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
